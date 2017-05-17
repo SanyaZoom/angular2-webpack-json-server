@@ -1,0 +1,39 @@
+md-list {
+    margin-left: 20%;
+    width: 60%;
+}
+
+md-list h2 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 1%;
+}
+
+md-list h2 span.owner-name {
+    font-weight: bold;
+}
+
+md-list h2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+md-list h2 a:hover {
+    text-decoration: underline;
+}
+
+md-list md-list-item {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    margin: 1%;
+    border: 1px solid #d5d5d5;
+}
+
+md-list md-list-item h4 {
+    font-weight: bold;
+}
+
+md-list md-list-item p {
+    white-space: normal;
+    font-style: italic;
+}

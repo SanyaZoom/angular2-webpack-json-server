@@ -1,0 +1,7 @@
+<md-list>
+    <h2 md-subheader>Posts from <span class="owner-name">{{postOwnerName}}</span> <a href="mailto:{{postOwnerEmail}}">{{postOwnerEmail}}</a></h2>
+    <md-list-item *ngFor="let post of posts" (click)="getComment(post)">
+        <h4 md-line>{{post.title}}</h4>
+        <p md-line>{{post.content}}</p>
+    </md-list-item>
+</md-list>
